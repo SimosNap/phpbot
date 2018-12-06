@@ -1,0 +1,20 @@
+<?php
+	$conf['logs_dir'] = 'logs/';
+
+	$conf['ircd']['server'] = 'irc.simosnap.com';
+	$conf['ircd']['port'] = 6667;
+	$conf['ircd']['ssl'] = false;
+
+
+
+	$conf['client']['nick'] = 'PHPBot';
+	$conf['client']['nickpass'] = 'changethis';
+	// Only for olined bots
+	$conf['client']['oper'] = 'PHPBot';
+	$conf['client']['operpass'] = 'changethis';
+
+	$conf['client']['ident'] = 'PHPBot';
+	$conf['client']['host'] = 'localhost';
+	$conf['client']['realname'] = 'Vittime: non lo siamo tutti?';
+	$conf['client']['main_channel'] = '#geeks';
+?>

@@ -1,0 +1,16 @@
+Connected to <botnick>, running PHPdrop v<version>
+
+     ____ __ __ ____    __
+    / . // // // . /___/ /____ ___   ___
+   / __// _/ // __// _  // __// _ \ / _ \
+  /_/  /_//_//_/   \_,_//_/   \___// .__/
+                                  /_/
+
+Hey <b><nick><b>  My name is <b><botnick><b> and I am running PHPdrop
+
+Local time is now <b><time><b>
+
+Have fun.
+
+Commands start with '.' (like '.quit' or '.help')
+Everything else goes out to the party line.

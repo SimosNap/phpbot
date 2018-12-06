@@ -1,0 +1,43 @@
+<?php
+	class DummyModule {
+		private $_name;
+
+		function __construct () {
+			$this->_name = __CLASS__;
+		}
+
+		function name () {
+			return $this->_name;
+		}
+
+		function author () {
+			return 'SimosNap Coder Staff';
+		}
+
+        function handle_timer ($args) {
+                if ($args[0] % 5 == 0) {
+                        send ('PRIVMSG #test: asd');
+                }
+        }
+
+		
+		function readdata() {
+			$data = explode('http://streaming.irclab.net:8000/stream.mp3', '|');
+			foreach ($val as $data) {
+				$mount = $val[0];
+				$name = $val[1];
+				$curlist = $val[2];
+				$peaklist = $val[3];
+				$limitlist = $val[4];
+				$title = $val[5];
+				$bitrate = $val[6];
+				$samplerate = $val[7];
+			}
+		
+		
+		}
+
+		function handle_privmsg ($source, $args) {
+		}
+	}
+?>
